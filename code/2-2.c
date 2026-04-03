@@ -15,8 +15,8 @@ void sort_strings(char **arr, int size) {
 }
 
 int main() {
-    char* words[] = {"apple", "ant", "banana", "cherry","bread"};
-    int size = 5;
+    char* words[] = {"apple", "ant", "banana", "cherry"};
+    int size = 4;
 
     sort_strings(words, size);
 
