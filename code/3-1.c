@@ -4,7 +4,7 @@ void read_only(const int* arr, int size) {
     // arr[0] =999;
 
     for(int i = 0; i < size; i++) {
-        printf("%d", *(arr + 1));
+        printf("%d", *(arr + i));
         printf("\n");
     }
 }
